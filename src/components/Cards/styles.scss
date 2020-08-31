@@ -1,0 +1,52 @@
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    
+}
+
+.ui.card:first-child {
+  margin-top: 14px;
+}
+.ui.card:last-child {
+  margin-top: 14px;
+}
+.content{
+  height: 40%;
+  text-align: left;
+}
+
+
+.ui.card {
+  height:400px;
+  border-radius:20px;
+  overflow: hidden;
+  
+
+}
+
+.ui.card:hover{
+  background-color: rgba(105, 105, 105, 0.74);
+  transition: 0.3s;
+  box-shadow: 0px 10px 12px 0px rgba(92, 91, 91, 0.75);
+  cursor: grab;
+ 
+
+}
+
+
+
+.ui.card>.image>img, .ui.cards>.card>.image>img{
+
+    min-width: 100%;
+    height: 240px;
+    padding : 0 ;
+    border-radius:20px;
+}
+.image {
+   
+    height: 60%;
+}
+
+
